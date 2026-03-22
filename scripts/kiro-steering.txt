@@ -1,0 +1,61 @@
+Slide 1: Escaping Coding Groundhog Day
+Speaker Notes: "Welcome everyone. Today we’re talking about a common frustration in AI-assisted development: the 'Groundhog Day' effect where you have to re-teach your AI the same rules every time you start a new chat
+. We’re going to look at how to build a permanent brain for your codebase using Kiro Steering, allowing your AI to actually remember your project's unique requirements
+."
+Slide 2: The Infinite Loop of Amnesiac AI
+Speaker Notes: "We’ve all been in this loop. You ask for a component, the AI hallucinates using the wrong library, you provide a correction (like, 'we use Zustand here'), and then in the next chat, it happens all over again
+. This 'Amnesiac AI' cycle wastes mental energy and time because the AI starts every session with a completely clean slate
+."
+Slide 3: Giving Your Project a Permanent Memory
+Speaker Notes: "Kiro Steering solves this by creating a permanent memory
+. By storing your project’s specific rules, tech stack, and coding standards in simple Markdown files, you inject persistent knowledge into the AI context
+. This means Kiro knows your specific playbook and follows it every single time without being reminded
+."
+Slide 4: The Context Triad: Laying the Groundwork
+Speaker Notes: "To get started, we use the Context Triad. These three files provide the ultimate base context
+:
+product.md (The Why): Defines the core purpose and business logic
+.
+tech.md (The How): Lists the specific tech stack and technical standards
+.
+structure.md (The Where): Defines the repository's architectural layout
+."
+Slide 5: Scope Hierarchy: Local Rules Always Win
+Speaker Notes: "Kiro manages context through a hierarchy
+. You can set Global Steering for your personal style across all projects, but Workspace Steering (project-specific) will always take precedence
+. If there’s a conflict—for example, if a global rule says 'standard linting' but your project requires 'strict custom linting'—the local workspace rule wins
+."
+Slide 6: The Living Documentation Flywheel
+Speaker Notes: "This creates a 'Living Documentation Flywheel'
+. You define a rule in Markdown, the AI enforces that standard in its code generation, and as the project evolves with new patterns, you update the Markdown
+. This ensures that both humans and AI are perfectly aligned, making knowledge scaling effortless
+."
+Slide 7: The Inclusion Engine: Granular Context Control
+Speaker Notes: "Loading every rule into every chat is inefficient
+. The Inclusion Engine gives you granular control over when Kiro 'knows' certain things
+. We have four modes: Default (always on), Conditional (path-based), Manual (triggered by you), and Auto (inferred by the AI)
+."
+Slide 8: Conditional Inclusion Delivers Just-in-Time Context
+Speaker Notes: "Conditional inclusion is great for keeping the context window lean
+. For example, you can set an include if rule so that specific API design rules are only loaded when you are actively working inside the app/api/ directory
+. Kiro performs this context-aware routing automatically based on your file path
+."
+Slide 9: Activating Dormant Knowledge
+Speaker Notes: "For specialized or rarely used knowledge, you can use Manual or Auto inclusion
+. Manual inclusion stays dormant until you call it with a hashtag like #performance-optimization
+. Auto-inclusion is even smarter—you provide a description, and Kiro intelligently decides to load the file based on the intent of your prompt, like recognizing a question about database schemas
+."
+Slide 10: The Unbreakable Security Rule
+Speaker Notes: "This is the most important rule: Never, ever include secrets
+. Steering files are plain text and are fed directly into AI context windows
+. You must ensure no API keys, passwords, or sensitive environment variables are ever written into your .md steering files
+."
+Slide 11: Engineering Your Steering Files
+Speaker Notes: "To get the best results, treat your context as code
+. Keep your files focused on single topics, use descriptive names, and provide concrete code examples so the AI knows exactly what syntax to mimic
+. Remember, these files need to be maintained and updated just like your regular source code
+."
+Slide 12: From Forgetful Partner to Codebase Expert
+Speaker Notes: "By implementing Kiro Steering, you transform your AI from a forgetful partner into a true codebase expert
+. It’s time to stop repeating yourself and start building your project's permanent brain today
+. So, what’s the very first rule you’re going to teach your AI?

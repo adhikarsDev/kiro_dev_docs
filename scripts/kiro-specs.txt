@@ -1,0 +1,28 @@
+Slide 1: Title Slide
+Script: "Welcome, everyone. Today we’re going to discuss how to transform the way we build software. We often start with a brilliant idea, but the path to a finished product can be messy. I want to introduce you to Kiro Specs—the ultimate blueprint for code that helps us move from a fuzzy concept to a clean, working reality."
+Slide 2: The Problem
+Script: "We’ve all experienced this: a brilliant idea that gets lost in translation. Somewhere between the initial spark and the final commit, things go wrong. We run into unclear requirements, teams fall out of sync, and tracking progress begins to feel like complete guesswork. This chaos is what we are here to solve."
+Slide 3: A Systematic Path
+Script: "Kiro Specs provides a systematic path from concept to completion. These are structured documents that formalize your entire development process. Instead of just diving into code, we use specs to break down big requirements, build detailed design docs, track every implementation step, and—most importantly—collaborate effectively as a team."
+Slide 4: The Three-Phase Pipeline
+Script: "The heart of this process is a three-phase engineering pipeline. It’s built on three key files that create one repeatable process:
+The What: Defining the goal.
+The How: Planning the architecture.
+The To-Do: Executing the work."
+Slide 5: Phase 1 – The What
+Script: "Phase 1 is about defining the goal before writing a single line of code. Using the requirements.md file, we focus on User Stories to capture the exact user need and context. We also define Acceptance Criteria, so the entire team is aligned on what 'done' actually looks like."
+Slide 6: Phase 2 – The How
+Script: "Once we know what we’re building, we move to Phase 2: mapping the complete technical architecture. This is the Engineer’s Blueprint, stored in design.md. Here, we structure the logic and data flow through a Technical Plan and use Sequence Diagrams to map out the nitty-gritty interaction details."
+Slide 7: Phase 3 – The To-Do
+Script: "In the final phase, we break the master design into an actionable checklist. The tasks.md file serves as our Construction Plan. By turning the blueprint into small and trackable tasks, we create a step-by-step execution plan that is easy to follow and manage."
+Slide 8: The Right Blueprint for the Job
+Script: "Kiro Specs isn't one-size-fits-all; it offers the right blueprint for the exact job. Feature Specs are intended for building brand-new capabilities from scratch. On the other hand, Bug Fix Specs are for systematically hunting down issues and ensuring they never come back."
+Slide 9: Structure vs. Freestyle
+Script: "So, when should you use a spec versus just 'vibing'? It’s a balance of Project Complexity and Goal Clarity. You should use Vibe for quick exploratory coding or rapid prototyping when the end goal isn't defined. But for complex builds, costly bugs, or keeping a team in sync, Kiro Specs is the way to go."
+Slide 10: Getting Started
+Script: "Starting a spec is incredibly easy and happens directly in your workflow.
+Click the '+' button in the Kiro pane.
+Choose whether you need a Feature Spec or a Bug Fix Spec.
+Describe what you are trying to do, and Kiro will walk you through the rest."
+Slide 11: Conclusion
+Script: "In summary, Kiro Specs leads to less chaos, better code, and happier teams. It gives us Clarity on what 'done' looks like, Collaboration to keep everyone in sync, and Control over tracking progress without the guesswork. So, let me ask you: what will your first blueprint be?"
