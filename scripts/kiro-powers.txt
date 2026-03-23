@@ -1,0 +1,48 @@
+Slide 1: Core Concept: Kiro Powers
+Speaker Notes: Welcome everyone. Today we are discussing a solution to a major hurdle in AI development: context overload. The core concept we’re introducing is Kiro Powers
+. These are dynamic, on-demand knowledge modules designed for AI agents. Instead of forcing an agent to remember everything at once, we can now package tools, workflows, and best practices into a format that Kiro activates exactly when needed and ignores when it’s not
+.
+Slide 2: The Spectrum of Agent Failure
+Speaker Notes: To understand why this matters, we have to look at how agents fail today. It’s a balancing act
+. On one side, you have Under-Context, where the agent is just guessing because it lacks specific framework knowledge
+. On the other side is the Latency Trap of Over-Context, where loading hundreds of tool definitions kills the agent's speed and quality before it even writes a line of code
+. We want to hit that Optimal Zone in the middle
+.
+Slide 3: The Anatomy of Context Exhaustion
+Speaker Notes: Let’s look at the numbers behind context exhaustion. If you connect common services like Figma, Supabase, and Postman, you can end up with over 180 total tools loaded upfront
+. This consumes more than 50,000 tokens—burning roughly 40% of your context window before you even type your first prompt
+. This results in slow responses and irrelevant, low-quality code suggestions
+.
+Slide 4: Enter Kiro Powers
+Speaker Notes: This is where we see a Paradigm Shift
+. Instead of treating agent context as one giant, static block of information, Kiro introduces modular expertise
+. By using specialized knowledge packages, your agent gets instant access to deep knowledge for any specific technology without the "token bloat" of carrying around unused tools
+.
+Slide 5: Dynamic Activation in Action
+Speaker Notes: How does it work in practice? It’s driven by the Kiro Analysis Engine
+. When you give an input like "Add a database on Supabase," Kiro evaluates your installed powers and loads only the Supabase power into the active context
+. Other tools like Netlify or Datadog stay out of the way, ensuring responses remain fast and hyper-focused
+.
+Slide 6: The Architecture of a Power Module
+Speaker Notes: A Power Module is built in three layers
+:
+Layer 1 is the "Brain" (POWER.md): The steering file that dictates the rules and scenarios for tool use
+.
+Layer 2 is the "Hands" (MCP Config): The executable layer containing the actual API definitions and connection details
+.
+Layer 3 is the "Automation" (Hooks): An optional layer for event-driven tasks that trigger based on your IDE events
+.
+Slide 7: Traditional MCP Servers vs. Dynamic Powers
+Speaker Notes: When we compare this to traditional MCP setups, the advantages are clear. Traditional setups load tools upfront, consuming massive token budgets and leading to sluggish performance
+. Kiro Powers are On-Demand, keeping baseline context usage minimal and response speeds lightning fast
+. Plus, setup moves from manual JSON configuration to a simple 1-click installation
+.
+Slide 8: The Open Power Ecosystem
+Speaker Notes: We are building an Open Power Ecosystem with curated launch partners like Stripe, AWS Aurora, and Supabase
+. You can browse these directly in Kiro or at kiro.dev for zero-configuration installs
+. Most importantly, it is community extensible, meaning you can build and share your own workflows or install them directly from GitHub
+.
+Slide 9: The New Paradigm of Agent Architecture
+Speaker Notes: In conclusion, we are moving away from the messy "spaghetti" of static prompt engineering
+. The new paradigm is Dynamic Context Routing
+. You are no longer giving your agent a massive box of unstructured tools; you are giving it an efficient, switchable brain that activates specialized expertise exactly when the code demands it

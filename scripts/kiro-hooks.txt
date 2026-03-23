@@ -1,0 +1,76 @@
+Slide 1: Automating the Development Workflow
+Key Concept: Kiro Agent Hooks transform your IDE into an intelligent, event-driven environment
+.
+Talking Points: Hooks allow developers to configure automated actions that trigger based on specific events within the IDE
+. In the example shown, a git commit trigger is used to automatically run a security audit on staged files before the commit is finalized
+.
+Slide 2: Eliminating Repetitive Tasks
+Key Concept: Shifting from manual reliance to automated responses
+.
+Talking Points: Manual workflows often rely on human memory for routine tasks, which can lead to risk and inconsistency
+. Agent hooks automate these triggers—such as code formatting on file save or report generation after a test run—allowing developers to maintain focus on building software
+.
+Slide 3: The Compound Value of Automation
+Key Concept: The broad organizational benefits of automated routines
+.
+Talking Points: Implementing hooks isn't just about individual speed; it’s about standardizing team processes and preventing security vulnerabilities across the board
+. These routines maintain consistent code quality and reduce manual overhead, leading to faster overall development cycles
+.
+Slide 4: The Foundational Event-to-Action Pipeline
+Key Concept: How the "plumbing" of a hook works
+.
+Talking Points: The pipeline starts with Event Detection, which monitors file changes, tool invocations, or manual triggers
+. Once an event is detected, the system executes one of two paths: an agent prompt (Ask Kiro) or a shell command (Run Command)
+.
+Slide 5: Intercepting the Workflow Timeline
+Key Concept: Strategic placement of hooks throughout the day
+.
+Talking Points: Hooks can be placed at various "interception points":
+Pre-Tool/Task Hooks: Used to evaluate parameters or prepare environments
+.
+Post-Tool Hooks: Used to parse output for the agent
+.
+File Save Hooks: Used for immediate, automated reviews or formatting
+.
+Slide 6: The Invisible Loop of Maintenance
+Key Concept: Seamless, autonomous codebase maintenance
+.
+Talking Points: This loop illustrates how a simple human action, like saving a file, triggers an invisible chain
+. The system detects the save, the agent evaluates the code for vulnerabilities, a shell command standardizes formatting, and the developer continues working without interruption
+.
+Slide 7: Launching the Configuration Environment
+Key Concept: Accessing the setup interface
+.
+Talking Points: Setting up these automations is done through the Kiro Hook UI
+. You can quickly launch this environment using the Command Palette (Cmd/Ctrl + Shift + P) and searching for "Open Kiro Hook UI"
+.
+Slide 8: Choosing an Implementation Approach
+Key Concept: Natural Language vs. Manual Configuration
+.
+Talking Points: Use Ask Kiro (Natural Language) for rapid prototyping and describing complex workflows in plain English
+. Switch to Manual Configuration for precise shell commands, granular file pattern matching, and explicit variable definitions
+.
+Slide 9: Generating Hooks via Natural Language
+Key Concept: The four-step "Ask Kiro" workflow
+.
+Talking Points: To create a hook with natural language, simply describe the desired workflow (e.g., "Run the security linter every time I save a Python file")
+. After submitting the request, the system generates the configuration for you to review and save
+.
+Slide 10: Anatomy of Manual Configuration
+Key Concept: Granular control for advanced users
+.
+Talking Points: Manual setup requires defining five core components:
+Title & Description: Defining the purpose
+.
+Event: Selecting the specific trigger
+.
+Scoping: Using tool names or file patterns to limit when the hook activates
+.
+Action: Choosing between an agent prompt or shell command
+.
+Instructions: Providing the exact code or prompt to execute
+.
+Slide 11: Expanding Your Automation Architecture
+Key Concept: Next steps for deepening IDE capabilities
+.
+Talking Points: Once your first hook is running, explore the documentation for architectural patterns, hook management libraries, and ready-to-use templates for common development workflows
