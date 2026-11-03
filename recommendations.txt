@@ -1,0 +1,21 @@
+As we enhance the Real Estate Control Tower, I recommend that we make the Agents’ recommendations more data-driven and market-aware. Specifically, the Agents should use relevant market data, together with property-specific performance, to evaluate and support decisions involving:
+•	Marketing plan and marketing plan amendment approvals
+•	Reserve price reduction approvals
+•	List price reduction approvals
+•	Buyer contract approvals 
+•	Other similar asset-management decisions
+The market signals considered should include relevant market/MSA trends (and potentially trends for REO properties, if available) such as:
+•	For-sale inventory
+•	Contract fallout rates
+•	List price reductions, including both the number and percentage of listings with reductions
+•	Average sale price versus list price, measured as both a percentage and an absolute dollar amount
+•	Days on market
+Property specific data should include: 
+•	First list date
+•	Number of bidders
+•	Number of bids
+•	Day on market
+•	Previous highest offer
+Where possible, the Agents should evaluate these indicators at the most relevant geography and over an appropriate recent period, then compare them with property-specific performance to determine whether a requested action is reasonable and supported by current market conditions (even though the first and potentially subsequent valuations may support a higher list price, reserve price and/or sale price).
+Importantly, each recommendation should explain which market and property-level signals influenced the conclusion and why. This will make the Agents’ recommendations more transparent, consistent, and easier to review.  This will also professionalize how we deliver recommendations to our customers.
+Please incorporate this approach into the Control Tower design (including the Recommendation Agent design) and identify which of these data inputs are already available versus which still need to be sourced.
